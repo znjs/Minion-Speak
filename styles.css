@@ -1,10 +1,12 @@
 body {
-    font-family: 'Kalam', cursive;
+    /* font-family: 'Kalam', cursive; */
+    font-family: 'Indie Flower', cursive;
+    letter-spacing: 0.1rem;
     margin: 0;
 }
 
 :root {
-    --primary-color: #F2C94C;
+    --primary-color: #F4CB58;
     --secondary-color: #333333;
 }
 
@@ -23,7 +25,6 @@ h1 {
 textarea {
     font-family: 'Kalam', cursive;
     box-sizing: border-box;
-    /* margin: 1rem; */
     display: block;
     width: 100%;
     min-height: 15vh;
@@ -31,8 +32,8 @@ textarea {
 
 button {
     font-family: 'Kalam', cursive;
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
+    background-color: #4E6A82;
+    color: white;
     font-weight: bold;
     padding: 1rem;
 }
